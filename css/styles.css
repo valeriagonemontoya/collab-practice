@@ -1,4 +1,79 @@
-div {
-  background-color: aqua;
-  color: white;
+/* div {
+  background-color: lightskyblue;
+  color: black;
+} */
+
+.box{
+  border: solid rgb(183, 183, 226) 20px;
+  
+}
+
+header {
+  text-align: center;
+  border: solid rgb(81, 124, 204) 5px;
+  background-color: lightblue;
+  
+  color: aliceblue;
+  text-shadow: 3px 3px rgb(86, 42, 190);
+ 
+}
+
+nav {
+text-align: center;
+position: sticky;
+position: -webkit-sticky;
+top: 0px;
+border: solid rgb(231, 145, 217) 5px;
+background-color: palevioletred;
+
+color: aliceblue;
+}
+
+.section1{
+text-align: left;
+width: 50%;
+height: 50%; 
+border: solid black 1px;
+background-color: lavender;
+justify-content: left;
+color: black;
+
+}
+
+.section2{
+text-align: right;
+width: 50%;
+height: 50%; 
+border: solid black 1px;
+background-color: lavender;
+justify-content: left;
+color: black;
+}
+
+
+
+/* article {
+text-align: left;
+border: solid black 1px;
+background-color: lightgrey;
+justify-content: left;
+width: 300px;
+height: 251px; 
+}
+
+
+aside {
+border: solid  black 1px;
+width: 600px;
+height: 504px; 
+float: right;
+background-color: rgb(204, 204, 184);
+
+} */
+
+footer{
+text-align: center;
+border: solid black 5px;
+background-color: #eda2a7;
+background-image: url("/img/bubbles.jpeg");
 }
